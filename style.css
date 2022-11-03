@@ -1,0 +1,59 @@
+section {
+    margin: 0 auto;
+    width: 75%;
+    background-color: rgb(18, 199, 21);
+  }
+  
+  section:first-child {
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #6dc57a;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(11, 49, 24);
+  }
+  #about,#sosmed,#input{
+    display: none;
+  }
+  #output {
+    display: block;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(97, 237, 16);
+    transform: translateY(4px);
+  }
+  
+  input[type="text"] {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: fit-content;
+  }
+  .output {
+    border: 1px solid black;
+    height: 200px;
+  }
